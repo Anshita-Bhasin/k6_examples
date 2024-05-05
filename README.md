@@ -22,5 +22,7 @@ Windows => winget install k6
 2. Browser Headless Mode => k6 run <test_script.js>
 3. Browser UI Mode => K6_BROWSER_HEADLESS=false k6 run <test_script.js>
 
-<img width="877" alt="image" src="https://github.com/Anshita-Bhasin/k6_examples/assets/10338077/1244a47d-0741-435a-a2f8-6758b3bcfdea">
 
+
+
+<img width="922" alt="image" src="https://github.com/Anshita-Bhasin/k6_examples/assets/10338077/d28e7a3c-5e4b-49d7-8e78-7edaf17efcf5">
