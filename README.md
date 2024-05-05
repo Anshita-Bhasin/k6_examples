@@ -16,7 +16,7 @@ Windows => winget install k6
 
 # Run test scripts using - K6
 
-** Run the test case using the below command**
+ Run the test case using the below command**
 
 1. API => k6 run <test_script.js>
 2. Browser Headless Mode => k6 run <test_script.js>
