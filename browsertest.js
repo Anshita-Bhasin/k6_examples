@@ -6,7 +6,7 @@ export const options = {
         browser_test: {
             executor: 'constant-vus',
             vus: 2,
-            duration: '30s',
+            duration: '10s',
             options: {
                 browser: {
                     type: 'chromium'
@@ -18,6 +18,14 @@ export const options = {
 
 export default async function () {
     const page = browser.newPage()
-    await page.goto('https://www.google.com/')
+    page.setViewportSize({
+        width: 375,
+        height: 812
+    })
+    await page.goto('https://www.google.com')
+    page.screenshot({
+        fullPage: true,
+        path: 'screenshots/test2.png'
+    })
     page.close()
 }
