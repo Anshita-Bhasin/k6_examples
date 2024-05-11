@@ -7,12 +7,12 @@ export const options = {
 }
 const params = {
     headers: {
-        'Authorization': 'Bearer 96096fd0358d8c24b76ba3e3e415aae7102a4452fdf0ad819c070462c474b70b'
+        'Authorization': 'Bearer 737433476'
 
     }
 }
 let headers_api = {
-    'Authorization': 'Bearer 96096fd0358d8c24b76ba3e3e415aae7102a4452fdf0ad819c070462c474b70b'
+    'Authorization': 'Bearer 535534'
 }
 
 const url ="https://gorest.co.in/public/v2/users/"
