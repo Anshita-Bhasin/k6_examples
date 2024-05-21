@@ -6,7 +6,7 @@ k6 uses JavaScript as its scripting language, which makes it highly accessible t
 
 # Clone & Install - K6
 
-Clone the repo https://github.com/Anshita-Bhasin/k6_examples.git
+Clone the repo using git clone https://github.com/Anshita-Bhasin/k6_examples.git
 
 **1) Install K6**
 
