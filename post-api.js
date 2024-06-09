@@ -4,7 +4,7 @@ import { check } from 'k6'
 
 export const options = {
     vus: 10,
-    duration: '5s'
+    duration: '5s',
 }
 
 const url = "https://reqres.in/api/users"
